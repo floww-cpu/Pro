@@ -1,7 +1,47 @@
-# Ignore Vscode Folder
-.vscode
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Ignore Lua Implementation and srlua
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode
+.idea/
+*.swp
+*.swo
+
+# Local test files
+test.lua
+test.obfuscated.lua
+config.lua
+*.obfuscated.lua
+
+# Legacy Lua artifacts
 lua51.dll
 luajit.exe
 srlua
@@ -9,9 +49,8 @@ luajit
 buildnotes.txt
 srlua.exe
 glue.exe
-build
+build/
 
-# Ignore Local Test Files
-test.lua
-test.obfuscated.lua
-config.lua
+# OS
+.DS_Store
+Thumbs.db
